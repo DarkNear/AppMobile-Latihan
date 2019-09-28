@@ -1,0 +1,91 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+  
+}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+.login {
+  width: 400px;
+  margin: 12px auto;
+  font-size: 18px;
+}
+
+.hd {
+  background: #60a9a6;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-size: 1.1em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: rgba(3,3,3,.1);
+   
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="submit"] {
+  background: #0d3f67;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #1ee3cf;
+}
+
+
+.login input[type="submit"]:focus {
+  border-color: #f2f4f6;
+}
+
+.ss{ 
+  background: url(http://nerdbacon.com/wp-content/uploads/2017/04/super-nintendo-logo-wallpaper-3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+.login-container{
+  border-radius: 6px;
+  padding: 12px;
+  margin: auto;
+  height: 350px;
+  background: rgba(3,3,3,0.25);
+  box-shadow: 3px 3px 50px #000;
+}
