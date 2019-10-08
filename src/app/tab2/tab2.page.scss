@@ -1,54 +1,61 @@
 .hd {
     background: #60a9a6;
-    padding: 20px;
-    font-size: 1.5em;
+    padding: 18px;
+    font-size: 1.2em;
     font-weight: normal;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: #fff;
   }
   
-.splatoon{
-    
-    width: 150px;
-    height: 150px;
-    border-radius: 3px;
-    padding: 2em;
-    margin: 1e }
-.switch{
-    
-    width: 150px;
-    height: 150px;
-        border-radius: 3px;
-        padding: 2em;
-        margin: 1e }
-.mario{
-     
-    width: 150px;
-    height: 150px;
-    border-radius: 3px;
-    padding: 2em;
-    margin: 1e }
-.traveler{
-    
-    width: 150px;
-    height: 150px;
-    border-radius: 3px;
-    padding: 2em;
-    margin: 1e }
-.Animal{
-    
-    width: 150px;
-    height: 150px;
-    border-radius: 3px;
-    padding: 2em;
-    margin: 1e }
 
-h1{
-    font-weight: bold;
-        color: brown;
-        font-size: 1.5em;
-        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-      
-         }
+.rad-info-box{	
+	margin-bottom:16px;
+	box-shadow:1px 1px 2px 0 #CCCCCC;
+	padding:30px;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.26);
+	background:#f3f7f6;
+}
+
+.rad-info-box i{
+	display:block;
+	background-clip:padding-box;
+	height:120px;
+	width:120px;
+    position:absolute;	
+    border-radius: 3px;
     
+    
+}
+
+.rad-info-box .value,
+.rad-info-box .heading{
+	display:block;	
+	position:relative;
+	
+	text-align:right;
+	z-index:10;
+}
+
+.rad-info-box .heading{
+	font-size:1em;
+    font-weight:450;
+    margin-left: 4cm;
+	text-transform:uppercase;
+}
+
+.rad-info-box .value{
+	font-size:1em;
+	font-weight:600;
+	margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+

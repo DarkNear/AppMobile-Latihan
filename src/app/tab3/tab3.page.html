@@ -1,1 +1,90 @@
 
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="hd">
+      Add Game
+    </ion-title>
+  </ion-toolbar>
+  </ion-header>
+
+  <ion-content padding>
+      <ion-card>
+        <ion-list>
+          
+           
+          <ion-card-content> 
+            <ion-card-title>Name Game</ion-card-title>
+           <ion-item>
+       <ion-input type="text" value=""></ion-input></ion-item>
+       <ion-card-title>Harga</ion-card-title>
+       <ion-item>
+       <ion-input type="number" value="">Rp. </ion-input>
+      </ion-item>
+
+          </ion-card-content>
+          <ion-item>
+          <ion-label>Genre</ion-label>
+          <ion-select multiple="true" cancelText="cancel" okText="Ok!">
+            <ion-select-option value="RTS">RTS</ion-select-option>
+            <ion-select-option value="RPG">RGP</ion-select-option>
+            <ion-select-option value="MOBA">MOBA</ion-select-option>
+            <ion-select-option value="FPS">FPS</ion-select-option>
+            <ion-select-option value="ACTION">ACTION</ion-select-option>
+            <ion-select-option value="MMORPG">MMORPG</ion-select-option>
+            
+          </ion-select>
+        </ion-item> 
+        <ion-radio-group>
+            <ion-list-header>
+                <ion-card-title>Platform</ion-card-title>
+            </ion-list-header>
+            <ion-item>
+              <ion-label>PC</ion-label>
+              <ion-radio slot="start" color="success" value="PC"></ion-radio>
+            </ion-item>
+  
+            <ion-item>
+              <ion-label>ANDROID</ion-label>
+              <ion-radio slot="start" color="tertiary" value="ANDROID" checked></ion-radio>
+            </ion-item>
+  
+            <ion-item>
+              <ion-label>XBOX</ion-label>
+              <ion-radio slot="start" color="danger" value="XBOX"></ion-radio>
+            </ion-item>
+          </ion-radio-group> 
+          <ion-item>
+              <ion-label>Game Mode</ion-label>
+              <ion-select placeholder="Select One">
+                <ion-select-option value="on">Online</ion-select-option>
+                <ion-select-option value="off">Offline</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+          <ion-label>Tanggal rilis</ion-label>
+          <ion-datetime displayFormat="D MMM YYYY " min="1990" max="2099" value="2005-06-17"></ion-datetime>
+        </ion-item>
+        <ion-item>
+            <ion-label position="floating">Description :</ion-label>
+            <ion-textarea></ion-textarea>
+          </ion-item> 
+          
+          <ion-item><ion-label>Upload Game </ion-label>
+          <ion-input type="file" value=""></ion-input>
+         </ion-item>
+        </ion-list>
+        </ion-card>
+      
+        <ion-button expand="block">Kirim Game</ion-button>
+     
+      
+       
+         
+       
+     
+
+
+
+     
+      
+    </ion-content>
